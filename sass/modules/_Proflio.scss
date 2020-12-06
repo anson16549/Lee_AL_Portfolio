@@ -1,0 +1,427 @@
+.imgArea {
+    h4 {
+        font-weight: bold;
+        position: absolute;
+        font-size: 20px;
+        margin-left: 90px;
+        margin-top: 10px;
+        width: 260px;
+    }
+}
+
+.textAreas {
+    h3 {
+        color: black;
+        cursor: context-menu;
+        position: absolute;
+        margin-left: 240px;
+        margin-top: 100px;
+    }
+    span {
+        margin-bottom: 16px;
+        display: inline-block;
+        font-size: 14px;
+        &:hover {
+            color: #48CFAD;
+            transition: all .5s;
+        }
+    }
+    p {
+        letter-spacing: 3px;
+        word-spacing: 3px;
+        font-size: .8rem;
+        margin-top: 10px;
+        color: #cf9068;
+        margin-top: 50px;
+    }
+    a {
+        background-color: none;
+        border: 2px solid #cf9068;
+        color: #cf9068;
+        letter-spacing: 2px;
+        position: relative;
+        overflow: hidden;
+        transition: .5s;
+        display: inline-block;
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+span.m-left-name {
+    color: #d58b7f;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span.m-left {
+    margin-left: -3px;
+}
+
+span.m-right {
+    margin-left: -3px;
+    color: #d58b7f;
+}
+
+.AboutText {
+    h2 {
+        font-size: 2rem;
+        color: #f0cda8;
+        margin-left: 30px;
+        margin-top: 90px;
+        text-transform: uppercase;
+    }
+    .textArea {
+        text-align: center;
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 100px;
+        font-size: 13px;
+    }
+}
+
+.colorBox {
+    width: 300px;
+    height: 40px;
+    background-color: #363636;
+    position: relative;
+    z-index: -1;
+    top: 40px;
+    left: 73px;
+}
+
+.imageBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-left: 15px;
+    img {
+        height: 170px;
+        width: 200px;
+        margin: 10px;
+        margin-left: 80px;
+    }
+}
+
+.Cabilitytext {
+    h2 {
+        font-size: 2rem;
+        color: #f0cda8;
+        margin-left: 200px;
+        margin-top: 120px;
+        text-transform: uppercase;
+    }
+    .textArea {
+        text-align: center;
+        width: 200px;
+        margin-top: 40px;
+        margin-left: 100px;
+        font-size: 13px;
+    }
+}
+
+.button-wrapper {
+    img {
+        width: 200px;
+        height: 100px;
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+}
+
+.lb-thumb {
+    width: 300px;
+    margin-top: 150px;
+}
+
+.lb-thumb-title {
+    margin-left: 90px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.lb-thumb-subtitle {
+    margin-left: 90px;
+}
+
+.mainImage {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 650px) {
+    .imgArea {
+        h4 {
+            font-size: 32px;
+            width: 350px;
+            margin-left: 220px;
+        }
+    }
+    .textAreas {
+        h3 {
+            color: black;
+            cursor: context-menu;
+            position: absolute;
+            margin-left: 530px;
+            margin-top: 200px;
+        }
+        span {
+            margin-bottom: 50px;
+            display: inline-block;
+            font-size: 30px;
+            &:hover {
+                color: #48CFAD;
+                transition: all .5s;
+            }
+        }
+        p {
+            letter-spacing: 3px;
+            word-spacing: 3px;
+            font-size: .8rem;
+            margin-top: 10px;
+            color: #cf9068;
+            margin-top: 50px;
+        }
+        a {
+            background-color: none;
+            border: 2px solid #cf9068;
+            color: #cf9068;
+            letter-spacing: 2px;
+            position: relative;
+            overflow: hidden;
+            transition: .5s;
+            display: inline-block;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    .AboutText {
+        h2 {
+            font-size: 5rem;
+            color: #f0cda8;
+            margin-left: 60px;
+            margin-top: 70px;
+            text-transform: uppercase;
+        }
+        .textArea {
+            text-align: center;
+            width: 460px;
+            margin-left: 170px;
+            margin-top: 80px;
+            font-size: 18px;
+        }
+    }
+    .colorBox {
+        width: 570px;
+        height: 90px;
+        background-color: #363636;
+        position: relative;
+        z-index: -1;
+        top: 100px;
+        left: 195px;
+    }
+    .imageBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        margin-left: 15px;
+        img {
+            height: 400px;
+            width: 500px;
+            margin: 10px;
+            margin-left: 150px;
+        }
+    }
+    .imagePromo {
+        width: 260px;
+    }
+    .Cabilitytext {
+        h2 {
+            font-size: 5rem;
+            color: #f0cda8;
+            margin-left: 350px;
+            margin-top: 190px;
+            text-transform: uppercase;
+        }
+        .textArea {
+            text-align: center;
+            width: 460px;
+            margin-left: 170px;
+            margin-top: 80px;
+            font-size: 18px;
+        }
+    }
+    .button-wrapper {
+        img {
+            width: 450px;
+            height: 300px;
+            margin-left: 180px;
+        }
+    }
+    .lb-thumb {
+        width: 500px;
+        margin-left: 120px;
+        margin-top: 70px;
+    }
+    .lb-thumb-title {
+        font-weight: bold;
+        font-size: 37px;
+        margin-left: 180px;
+    }
+    .lb-thumb-subtitle {
+        font-size: 27px;
+        margin-left: 180px;
+        margin-bottom: 70px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .imgArea {
+        h4 {
+            font-weight: bold;
+            position: absolute;
+            font-size: 50px;
+            margin-left: 350px;
+            margin-top: 40px;
+            width: 700px;
+        }
+    }
+    .textAreas {
+        margin-left: 280px;
+        h3 {
+            color: #ffffff;
+            font-size: 4rem;
+            cursor: context-menu;
+            margin-top: 190px;
+        }
+        span {
+            display: inline-block;
+            font-size: 25px;
+            margin-top: 40px;
+            &:hover {
+                color: #48CFAD;
+                transition: all .5s;
+            }
+        }
+        p {
+            letter-spacing: 3px;
+            word-spacing: 10px;
+            font-size: .8rem;
+            margin-top: 10px;
+            color: #cf9068;
+            margin-top: 50px;
+        }
+        a {
+            padding: 12px 25px;
+            background-color: none;
+            border: 2px solid #cf9068;
+            color: #cf9068;
+            font-size: .8rem;
+            letter-spacing: 2px;
+            position: relative;
+            top: 80px;
+            overflow: hidden;
+            transition: .5s;
+            display: inline-block;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    span.m-left-name {
+        color: #d58b7f;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    span.m-left {
+        margin-left: -10px;
+    }
+    span.m-right {
+        margin-left: -10px;
+        color: #d58b7f;
+    }
+    .span.m-left-name {
+        font-size: 10px;
+    }
+    .AboutText {
+        h2 {
+            font-size: 7rem;
+            color: #f0cda8;
+            margin-left: 100px;
+            margin-top: 100px;
+            text-transform: uppercase;
+        }
+        .textArea {
+            text-align: center;
+            width: 700px;
+            margin-left: 300px;
+            margin-top: 80px;
+            font-size: 18px;
+        }
+    }
+    .colorBox {
+        width: 1000px;
+        height: 130px;
+        background-color: #363636;
+        position: relative;
+        z-index: -1;
+        top: 100px;
+        left: 200px;
+    }
+    .imageBox {
+        display: flex;
+        flex-direction: row;
+        margin-top: 26px;
+        margin-right: 150px;
+        padding-right: -70px;
+        img {
+            height: 300px;
+            width: 300px;
+        }
+    }
+    .Cabilitytext {
+        h2 {
+            font-size: 7rem;
+            color: #f0cda8;
+            margin-left: 650px;
+            margin-top: 200px;
+            text-transform: uppercase;
+        }
+        .textArea {
+            text-align: center;
+            width: 700px;
+            margin-left: 300px;
+            margin-top: 80px;
+            font-size: 18px;
+        }
+    }
+    #app {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button-wrapper {
+        height: 270px;
+        margin-top: 140px;
+        img {
+            width: 400px;
+            height: 300px;
+            margin-left: 150px;
+        }
+    }
+    .lb-thumb-title {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-size: 37px;
+        margin-left: 160px;
+    }
+    .lb-thumb-subtitle {
+        font-size: 27px;
+        margin-left: 160px;
+    }
+}

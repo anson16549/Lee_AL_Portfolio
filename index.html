@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+
+</head>
+
+<body>
+    <div id="siteContainer">
+        <header id="mainHeader">
+
+            <!-- Close logo-->
+            <div class="container">
+
+                <nav class="navbar">
+                    <div id="logo">
+                        <img class="iconImage" src="img/new_logo.png" alt=" productImage ">
+                    </div>
+                    <div class="hamMenu" id="hamburger">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <div id="mainNav">
+
+                        <ul class="nav_ul" id="nav_UL">
+                            <li class="nav-item"><a href="#" class="current">Porfolio</a></li>
+                            <li class="nav-item"><a href="gallery.html">Gallary </a></li>
+                            <li class="nav-item"><a href="contact.html">Contact</a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!-- Close mainNav -->
+        </header>
+        <!-- Close mainHeader -->
+
+        <div class="HeroImage">
+            <div class="imgArea">
+                <h4>Welcome to my Porfolio</h4>
+                <div class="textAreas">
+                    <h3>
+                        <span>H</span>
+                        <span class="m-left">i</span>
+                        <span class="m-left">,</span>
+                        <span>M</span>
+                        <span class="m-left">y</span>
+                        <span>n</span>
+                        <span class="m-left">a</span>
+                        <span class="m-left">m</span>
+                        <span class="m-left">e</span>
+                        <span>i</span>
+                        <span class="m-left">s</span>
+                        <br>
+                        <span class="m-left-name">A</span>
+                        <span class="m-left-name">n</span>
+                        <span class="m-left-name">s</span>
+                        <span class="m-left-name">o</span>
+                        <span class="m-left-name">n</span>
+                        <span class="m-left-name">L</span>
+                        <span class="m-left-name">e</span>
+                        <span class="m-left-name">e</span>
+                        <br>
+                        <span></span>
+                        <span class="m-right">U</span>
+                        <span class="m-right">X</span>
+                        <span class="m-right">/</span>
+                        <span class="m-right">U</span>
+                        <span class="m-right">I</span>
+                        <span></span>
+                        <span class="m-right">D</span>
+                        <span class="m-right">e</span>
+                        <span class="m-right">s</span>
+                        <span class="m-right">i</span>
+                        <span class="m-right">g</span>
+                        <span class="m-right">n</span>
+                        <span class="m-right">e</span>
+                        <span class="m-right">r</span>
+                        <span class="m-right">.</span>
+                    </h3>
+
+                </div>
+
+                <img class="mainImage" src="img/heroImage.svg" alt="HeroImage">
+            </div>
+        </div>
+
+        <div id="aboutArea ">
+            <div class="AboutText ">
+                <h2>About</h2>
+                <p class="textArea ">
+                    I am a UX/UL Designer, I considered myself as a creative and imaginative designer. I am passionate about making 3D Modules and do editing in After Effects. I usually search some videos and tutorials on internet to try to discover and learn different skills
+                    on different sofewares.
+
+                </p>
+            </div>
+            <div class="colorBox"></div>
+            <div id="CabilityArea ">
+                <div class="Cabilitytext">
+                    <h2>Cability</h2>
+                    <p class="textArea">
+                        I have done a few projects using the skills what I have already known and learned. Included Cinema 4D, After Effetcs, Illustior, Photoshop and some Programe Language.
+                    </p>
+                </div>
+            </div>
+
+
+            <main id="app">
+                <buttoncomponent v-for="item in mediaCollection" :item="item" :key="item.id" @setmediatype="setComponent"></buttoncomponent>
+                <lightbox :item="currentItem" :mediatype="mediaType"></lightbox>
+            </main>
+
+        </div>
+
+        <footer id="mainFooter ">
+            <div id="footerNav ">
+
+                <div class="Button"> <a href="contact.html ">Contact me</a>
+                </div>
+                <div class="littleBox"></div>
+                <div id="copyRight">
+
+
+
+                    <h3>2021 copyright. All Rights Reserved</h3>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script defer src="js/main.js" type="module"></script>
+    <script defer src="js/nav.js"></script>
+
+</body>
+
+</html>

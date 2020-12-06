@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+
+</head>
+
+<body>
+    <div id="siteContainer">
+        <div class="Container">
+            <header id="mainHeader">
+                <div id="logo">
+                    <img class="iconImage" src="img/new_logo.png" alt=" productImage ">
+                </div>
+
+                <!-- Close logo-->
+                <nav id="mainNav">
+                    <button class="hamMenu" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="nav_ul" id="nav_UL">
+                        <li><a href="index.html">Porfolio</a></li>
+                        <li><a href="Gallery.html">Gallary </a></li>
+                        <li><a href="#" class="current">Contact</a></li>
+
+                    </ul>
+                </nav>
+                <!-- Close mainNav -->
+            </header>
+            <!-- Close mainHeader -->
+
+
+            <div class="content">
+
+                <h2>HAVE A QUESTION?<br><br> JUST WANT TO SAY HI?</h2>
+
+
+            </div>
+            <hr class="separator">
+
+            <div class="contactInfo">
+                <img src="img/phone.svg" alt="phone" id="phone">
+                <h3>Phone</h3>
+                <p>(226)503-9404</p>
+                <img src="img/email.svg" alt="email" id="email">
+                <h3>Email</h3>
+                <p>ansonlee51326@gmail.com</p>
+            </div>
+
+            <div class="contactCon">
+
+                <form action="./includes/mail/send.php" method="POST" id="contact-form">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="first name" required>
+
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="last name" required>
+
+                    <label for="Gender">Gender</label>
+                    <select name="gender" id="box">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="email" required>
+
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+
+                    <div class="submit-wrapper">
+                        <span class="submit" name="submit">Submit</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </div>
+            </div>
+
+
+
+            <footer id="mainFooter">
+                <div id="footerNav">
+
+                    <div class="littleBox"></div>
+                    <div id="copyRight">
+
+                        <h3>2021 copyright. All Rights Reserved</h3>
+                    </div>
+                </div>
+            </footer>
+            <script src="js/nav.js"></script>
+        </div>
+
+    </div>
+    <script defer src="js/contact.js"></script>
+</body>
+
+</html>
