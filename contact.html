@@ -27,7 +27,7 @@
                     </button>
                     <ul class="nav_ul" id="nav_UL">
                         <li><a href="index.html">Porfolio</a></li>
-                        <li><a href="Gallery.html">Gallary </a></li>
+                        <li><a href="gallery.html">Gallary </a></li>
                         <li><a href="#" class="current">Contact</a></li>
 
                     </ul>
@@ -56,7 +56,7 @@
 
             <div class="contactCon">
 
-                <form action="./includes/mail/send.php" method="POST" id="contact-form">
+                <form action="./includes/email/send.php" method="POST" id="contact-form">
                     <label for="firstname">First Name</label>
                     <input type="text" id="firstname" name="firstname" placeholder="first name" required>
 
@@ -97,7 +97,8 @@
         </div>
 
     </div>
-    <script defer src="js/contact.js"></script>
+    <script src="js/contact.js" type="module"></script>
+    <script src="js/nav.js" type="module"></script>
 </body>
 
 </html>
