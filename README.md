@@ -1,6 +1,6 @@
 ![Logo](./img/LOGO_Icon.svg)
 # Portfolio
-If you want to know more about me, you can view [my website](http://leeanson.ca/) here.
+If you want to know more about me, you can view [my website](http://leeanson.ca/)here.
 
 ##Build with 
 * **HTML5**

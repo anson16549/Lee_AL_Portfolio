@@ -1,112 +1,112 @@
-.lightbox {
-    display: none;
-    position: absolute;
-    top: 70px;
-    width: 79vw;
-    height: 1780px;
-    background-color: rgba(240, 205, 168, );
-    color: white;
-    padding: 40px;
-    span {
-        color: white;
-        font-size: 2em;
-        cursor: pointer;
-    }
-}
-
-.image-player {
-    h4 {
-        color: white;
-        margin-top: 120px;
-        font-weight: bold;
-        font-size: 20px;
-    }
-    p {
-        margin-top: 120px;
-        margin-bottom: 110px;
-        text-align: center;
-    }
-}
-
-.show-lightbox {
-    display: block;
-}
-
-.lb-video {
-    width: 300px;
-}
-
-.lb-close {
-    float: right;
-}
-
-@media screen and (min-width: 650px) {
-    .lightbox {
-        display: none;
-        position: absolute;
-        width: 90vw;
-        height: 3480px;
-        background-color: rgba(240, 205, 168, );
-        color: white;
-        padding: 40px;
-        margin-top: 50px;
-        span {
+        .lightbox {
+            display: none;
+            position: absolute;
+            top: 70px;
+            width: 79vw;
+            height: 1780px;
+            background-color: rgba(240, 205, 168, );
             color: white;
-            font-size: 3em;
-            cursor: pointer;
+            padding: 40px;
+            span {
+                color: white;
+                font-size: 2em;
+                cursor: pointer;
+            }
         }
-    }
-    .image-player {
-        h4 {
-            color: white;
-            margin-top: 130px;
-            font-weight: bold;
-            font-size: 50px;
-            margin-bottom: 80px;
+        
+        .image-player {
+            h4 {
+                color: white;
+                margin-top: 120px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            p {
+                margin-top: 120px;
+                margin-bottom: 110px;
+                text-align: center;
+            }
         }
-        p {
-            margin-top: 130px;
-            margin-bottom: 30px;
-            font-size: 30px;
-            text-align: center;
+        
+        .show-lightbox {
+            display: block;
         }
-    }
-    .show-lightbox {
-        display: block;
-    }
-    .lb-video {
-        width: 700px;
-        height: 500px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .lightbox {
-        margin-top: 80px;
-        width: 58.3vw;
-    }
-    .image-player {
-        img {
-            width: 700px;
-            height: 400px;
-            margin-left: 240px;
+        
+        .lb-video {
+            width: 300px;
         }
-        h4 {
-            color: white;
-            margin-top: 130px;
-            font-weight: bold;
-            font-size: 50px;
-            margin-bottom: 80px;
+        
+        .lb-close {
+            float: right;
         }
-        p {
-            margin-top: 130px;
-            margin-bottom: 30px;
-            font-size: 30px;
-            text-align: center;
+        
+        @media screen and (min-width: 650px) {
+            .lightbox {
+                display: none;
+                position: absolute;
+                width: 90vw;
+                height: 3480px;
+                background-color: rgba(240, 205, 168, );
+                color: white;
+                padding: 40px;
+                margin-top: 50px;
+                span {
+                    color: white;
+                    font-size: 3em;
+                    cursor: pointer;
+                }
+            }
+            .image-player {
+                h4 {
+                    color: white;
+                    margin-top: 130px;
+                    font-weight: bold;
+                    font-size: 50px;
+                    margin-bottom: 80px;
+                }
+                p {
+                    margin-top: 130px;
+                    margin-bottom: 30px;
+                    font-size: 30px;
+                    text-align: center;
+                }
+            }
+            .show-lightbox {
+                display: block;
+            }
+            .lb-video {
+                width: 700px;
+                height: 500px;
+            }
         }
-    }
-    .lb-video {
-        width: 1100px;
-        height: 650px;
-    }
-}
+        
+        @media screen and (min-width: 1024px) {
+            .lightbox {
+                margin-top: 80px;
+                width: 58.3vw;
+            }
+            .image-player {
+                img {
+                    width: 700px;
+                    height: 400px;
+                    margin-left: 240px;
+                }
+                h4 {
+                    color: white;
+                    margin-top: 130px;
+                    font-weight: bold;
+                    font-size: 50px;
+                    margin-bottom: 80px;
+                }
+                p {
+                    margin-top: 130px;
+                    margin-bottom: 30px;
+                    font-size: 30px;
+                    text-align: center;
+                }
+            }
+            .lb-video {
+                width: 1100px;
+                height: 650px;
+            }
+        }
